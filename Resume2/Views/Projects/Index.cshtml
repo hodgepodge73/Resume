@@ -28,7 +28,7 @@
                 @Html.DisplayFor(modelItem => item.title)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.url)
+                <a href="@Html.DisplayFor(modelItem => item.url)">Github Link</a>
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.title">Edit</a> |

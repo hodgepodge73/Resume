@@ -11217,5 +11217,8 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-
+rcorners1 {
+    border-radius: 25px;
+    padding: 20px;
+}
 /*# sourceMappingURL=bootstrap.css.map */

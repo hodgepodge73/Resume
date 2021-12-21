@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="Images\ProfilePicture.jpg" />
+    <None Include="wwwroot\Images\ProfilePicture.jpg" />
   </ItemGroup>
 
   <ItemGroup>

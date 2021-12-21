@@ -18,6 +18,20 @@ namespace Resume2.Controllers
             return View();
         }
 
+        public IActionResult CertificateView()
+        {
+            return View();
+        }
+        public IActionResult ContactView()
+        {
+            return View();
+        }
+        public IActionResult ProjectView()
+        {
+            return View();
+        }
+
+
         public IActionResult Privacy()
         {
             return View();

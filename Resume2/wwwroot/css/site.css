@@ -17,5 +17,18 @@ body {
   margin-bottom: 60px;
 }
 
-
+.columnA {
+    float: left;
+    width: 30%;
+}
+.columnB {
+    float: left;
+    width: 70%;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 

@@ -19,11 +19,11 @@ body {
 
 .columnA {
     float: left;
-    width: 30%;
+    width: 25%;
 }
 .columnB {
     float: left;
-    width: 70%;
+    width: 75%;
 }
 /* Clear floats after the columns */
 .row:after {
